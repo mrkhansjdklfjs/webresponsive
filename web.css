@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.left_content {
+    width: 50%;
+    float: left;
+}
+
+.right_content {
+    width: 50%;
+    float: right;
+}
+
+
+.logo ul {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.logo ul li {
+    color: azure;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.navbar {
+    text-align: right;
+}
+
+
+.navbar ul {
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: azure;
+
+}
+
+.logo ul li:hover {
+    color: darksalmon;
+
+}
+
+
+
+.navbar ul li a:hover {
+    color: cornflowerblue;
+
+}
+
+
+
+.logo_one {
+    text-align: center;
+    font-size: 140px;
+    color: antiquewhite;
+    margin-top: -130px;
+
+}
+
+
+.banner_area {
+    background-image: url(photo.jpg);
+    overflow: hidden;
+    background-size: cover;
+    height: 480px;
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+
+.banner_area::before{
+    content: "";
+    position: absolute;
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,e5e5e5+16 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 1%, #e5e5e5 16%); /* FF3.6-15 */
+background: webkit-linear-gradient(top, #584f40c2 1%,#6b5f5fb8 16%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #c3bdbdd9 1%,hsla(197, 15%, 20%, 0.38) 16%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#19131391',GradientType=0 ); /* IE6-9 */;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+        
+}
+
+
+
+
+
+
+.banner_area h1 {
+    line-height: 2;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: -12px;
+}
+
+.banner_area p {
+    line-height: 2;
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+.banner_content h1::before {
+
+    content: "";
+    background: whitesmoke;
+    width: 140px;
+    height: 5px;
+    margin-top: 65px;
+    position: absolute;
+
+
+
+
+}
+
+
+.banner_area h1::after {
+    content: "";
+    background: whitesmoke;
+    width: 140px;
+    height: 5px;
+    margin-top: 65px;
+    position: absolute;
+    margin-left: -130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_content {
+    color: white;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+
+.service_area {
+    background-image: url(purple.jpg);
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.container h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -50px;
+    color: whitesmoke;
+
+}
+
+.services i {
+    color: brown;
+    font-size: 80px;
+}
+
+
+.service_one {
+    width: 173px;
+    text-align: center;
+    background-color: azure;
+    margin: 5px;
+    display: inline-block;
+    padding: 50px;
+    margin-top: 60px;
+    transition: all .4s;
+    margin-bottom: -42px;
+    border-radius: 50%;
+    height: 165px;
+}
+
+.service_one:hover {
+    transform: translateY(-40px);
+}
+
+
+
+
+
+
+
+
+.service_area2 {
+    background-color: azure;
+    overflow: hidden;
+    background-size: cover;
+    height: 480px;
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.service_area2 h2 {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    margin-top: 46px;
+}
+
+
+
+
+.about_bar {
+    width: 100%;
+    font-size: 20px;
+    background: #000000;
+    overflow: hidden;
+    color: #000000;
+
+
+}
+
+.about_bar::before {
+    content: "\24B6";
+    position: absolute;
+    background: #dad5ce;
+    width: 13%;
+    height: 8px;
+   margin-top: 270px;
+    margin-left: -139px;
+    -webkit-transform: rotate(117deg);
+
+}
+
+
+.about_one ul li {
+    list-style: none;
+    list-style: none;
+    width: 50%;
+    margin-left: 170px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.about_two ul li {
+    list-style: none;
+    list-style: none;
+    text-align: right;
+    margin-left: 230px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    color: whitesmoke;
+
+}
+
+
+.service_area3 {
+    overflow: hidden;
+    height: 500px;
+    background-image: url(abstract.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.service_area3 h3 {
+    text-align: center;
+    margin-top: 53px;
+    font-size: 25px;
+}
+
+
+
+.form_area {
+    text-align: center;
+    margin-top: 90px;
+    color: black;
+}
+
+
+.name {
+    margin-left: 50px;
+    font-size: 26px
+}
+
+.email {
+    font-size: 26px;
+    margin-left: -41px;
+}
+
+.phone {
+    font-size: 26px;
+    margin-left: 242px;
+}
+
+.service_area3::before {
+    content: "";
+    background: #dad5ce;
+    width: 251px;
+    height: 7px;
+    margin-top: 90px;
+    position: absolute;
+    margin-left: 43%;
+}
+
+#wrapper {
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+#wrapper .container3{
+    color: azure;
+    text-align: left;
+    
+}
+.footer-1{
+    font-size: 28px;
+    width: 33.33%;
+    margin-left: 50%;
+    float: left;
+    text-align: left;
+}
